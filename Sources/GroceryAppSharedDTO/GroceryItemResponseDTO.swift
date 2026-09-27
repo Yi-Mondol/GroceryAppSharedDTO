@@ -9,13 +9,13 @@ import Foundation
 
 public struct GroceryItemResponseDTO: Codable {
     public let id: Int
-    public let name: String
+    public let title: String
     public let price: Double
     public let quantity: Int
     
-    public init(id: Int, name: String, price: Double, quantity: Int) {
+    public init(id: Int, title: String, price: Double, quantity: Int) {
         self.id = id
-        self.name = name
+        self.title = title
         self.price = price
         self.quantity = quantity
     }
